@@ -1,0 +1,151 @@
+body, html {
+  background-color: rgb(0, 0, 0);
+}
+
+@font-face {
+  font-family: SegoeIcons;
+  src:url("../Fonts/Segoe\ Fluent\ Icons.ttf");
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(50, 50, 50);
+  height: 90px;
+}
+
+.title {
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  font-size: 24pt;
+  font-family: cursive;
+  color: white;
+}
+
+#logo {
+  position: absolute;
+  left: 50%;
+  top: 40px;
+  transform: translate(-50%, 0%);
+  width: 35px;
+}
+
+#refresh {
+  position: absolute;
+  right: 5px;
+  width: 50px;
+  height: 50px;
+  top: 40px;
+  color: white;
+  font-size: 18pt;
+  font-family: SegoeIcons;
+  background-color: transparent;
+  border: none;
+}
+
+#canvas {
+  position: absolute;
+  left: 10px;
+  top: 100px;
+  width: 230px;
+  height: 230px;
+  background-color: rgb(27, 27, 27);
+}
+
+#pallet {
+  position: absolute;
+  right: 10px;
+  top: 100px;
+  width: 100px;
+  height: 230px;
+  background-color: rgb(27, 27, 27);
+}
+
+#style {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  width: 95%;
+  height: 190px;
+  background-color: rgb(27, 27, 27);
+  object-fit: contain;
+}
+
+#texture {
+  position: absolute;
+  left: 10px;
+  top: 340px;
+  width: 95%;
+  height: 190px;
+  background-color: rgb(27, 27, 27);
+  object-fit: contain;
+}
+
+#theme {
+  position: absolute;
+  left: 10px;
+  bottom: 200px;
+  width: 95%;
+  font-size: 20pt;
+  font-weight: lighter;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#motif {
+  position: absolute;
+  left: 15px;
+  bottom: 0;
+  width: 95%;
+  font-size: 18pt;
+  font-style: italic;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  z-index: 2;
+  font-weight: lighter;
+  color: white;
+  text-shadow: 0px 0px 3px black;
+}
+
+#one {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 25%;
+  z-index: 3;
+  background-color: red;
+}
+
+#two {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 50%;
+  z-index: 2;
+  background-color: white;
+}
+
+#three {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 75%;
+  z-index: 1;
+  background-color: blue;
+}
+
+#four {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: orange;
+}

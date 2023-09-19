@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src *; media-src example.com">
+      <meta name="format-detection" content="telephone=no">
+      <meta name="msapplication-tap-highlight" content="no">
+      <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+      <meta name="color-scheme" content="light dark">
+      <link rel="stylesheet" href="css/index.css">
+      <title>Møtif</title>
+    </head>
+    <body>
+      <header>
+        <h1 class="title">Møtif</h1>
+        <img src="img/logo.png" id="logo">
+        <button id="refresh">&#xE72C;</button>
+      </header>
+      <canvas id="canvas" width="100" height="100"></canvas>
+      <img src="" alt="" id="texture">
+      <h1 id="theme"></h1>
+      <div id="pallet">
+        <span id="one"></span>
+        <span id="two"></span>
+        <span id="three"></span>
+        <span id="four"></span>
+      </div>
+      <h1 id="motif"></h1>
+      <img src="" alt="" id="style">
+      <script src="cordova.js"></script>
+      <script src="js/index.js"></script>
+    </body>
+</html>
