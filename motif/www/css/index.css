@@ -33,6 +33,7 @@ header {
   top: 40px;
   transform: translate(-50%, 0%);
   width: 35px;
+  opacity: 25%;
 }
 
 #refresh {
@@ -48,13 +49,14 @@ header {
   border: none;
 }
 
-#canvas {
+#rorschachCanvas {
   position: absolute;
   left: 10px;
   top: 100px;
   width: 230px;
   height: 230px;
-  background-color: rgb(27, 27, 27);
+  background-color: rgb(255, 255, 255);
+  filter: blur(1px);
 }
 
 #pallet {
